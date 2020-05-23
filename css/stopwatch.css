@@ -1,0 +1,50 @@
+body {
+    color: #000000;
+    background-color: #eeeeee;
+    font-family: "Open Sans", sans-serif;
+}
+
+#clock {
+    text-align: center; /* Horizontally centers the text for the clock */
+}
+
+.hidden {
+    display: none;
+}
+
+/*Стили таблицы*/
+table {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #dfdfdf;
+    border-radius: 6px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+table thead tr {
+    color: #ff0c0b;
+    font-weight: bold;
+    background: #c83240;
+}
+
+table tr td {
+    border-right: 1px solid #ff0c0b;
+}
+
+table tr td:last-child {
+    border-right: 0px;
+}
+
+table tbody tr:nth-child(1n) {
+    background: #ff0c0b;
+}
+
+table tbody tr:nth-child(2n) {
+    background: #ff0c0b;
+}
+
+table tbody tr:hover {
+    background: #ff0c0b;
+    transition-duration: 0.6s;
+}

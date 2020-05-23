@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Секундомер</title>
+    <link href="img/icons/stopwatch.png" rel="icon">
+    <meta content="width=device-width, user-scalable=false" name="viewport">
+    <link href="css/stopwatch.css" rel="stylesheet">
+    <link href="css/btn.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+<h1 id="clock">00:00</h1>
+<button id="start-stop">Старт</button>
+<button id="mid-start">Промежуточный финиш</button>
+<button class="danger" id="reset">Сбросить</button>
+<label for="accuracy"></label><select id="accuracy" onchange="accuracyIndex=this.value">
+    <option selected value="1">Секунды</option>
+    <option value="0.001">Миллисекунды</option>
+</select>
+
+<table class="table-result" id="table-result">
+    <tr>
+        <td>№</td>
+        <td>Время</td>
+    </tr>
+</table>
+
+<script src="js/stopwatch.js" type="text/javascript"></script>
+</body>
+</html>
