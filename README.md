@@ -41,4 +41,6 @@ If you want to contribute, follow these steps:
 
 ## 📄 Demo
 
+https://good-gis.github.io/stopwatch/
+
 I hope you enjoy using our stopwatch! ⏲️✨
